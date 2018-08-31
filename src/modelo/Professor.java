@@ -1,12 +1,13 @@
 package modelo;
 
-public class Professor extends Pessoa {
-int salario;
-public Professor(String nome, int idade, int salario) {
+public class Professor /*classe*/ extends Pessoa {/*Herança*/
+int salario; //variavel
+
+public Professor(String nome, int idade, int salario) {//metodo construtor
 	super(nome, idade);
 	this.salario = salario;
 	}
-public void ensinar(String nome) {
+public void ensinar(String nome) { //metodo ensinar
 	System.out.println("O professor"+nome+" está ensinando.");
 }
 }
