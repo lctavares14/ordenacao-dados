@@ -8,7 +8,7 @@ public Pessoa(String nome, int idade) {
 	this.idade = idade;
 	}
 public void falar() {
-	System.out.print("Pessoa Falando.");
+	System.out.print("Pessoa Falando.  ");
 }
 }
 //email: eudisozatunes@gmail.com

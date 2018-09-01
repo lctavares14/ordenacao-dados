@@ -8,7 +8,7 @@ public Professor(String nome, int idade, int salario) {//metodo construtor
 	this.salario = salario;
 	}
 public void ensinar(String nome) { //metodo ensinar
-	System.out.println("O professor"+nome+" está ensinando.");
+	System.out.println("O professor "+nome+" está ensinando.");
 }
 }
 //email: eudisozatunes@gmail.com

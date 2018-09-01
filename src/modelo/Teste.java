@@ -4,7 +4,7 @@ public class Teste {
 	public static void main(String[] args) {
 	
 		Pessoa p1 = new Pessoa("Um, dois, Tr s", 99);
-		p1.nome = "Daiane goncalves Santana";
+		p1.nome = " Daiane goncalves Santana";
 		p1.falar();
 		
 		Aluno a1 = new Aluno("Henrique Nunes Batista", 68, 20);
