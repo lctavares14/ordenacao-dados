@@ -1,14 +1,14 @@
-package modelo;
+package modelo;//pacote
 
 public class Professor /*classe*/ extends Pessoa {/*Herança*/
 int salario; //variavel
 
 public Professor(String nome, int idade, int salario) {//metodo construtor
-	super(nome, idade);
-	this.salario = salario;
+	super(nome, idade);//atributo do metodo construtor
+	this.salario = salario; //variavel mais atributo
 	}
 public void ensinar(String nome) { //metodo ensinar
-	System.out.println("O professor "+nome+" está ensinando.");
+	System.out.println("O professor "+nome+" está ensinando.");//print do atributo nome do professor
 }
 }
 //email: eudisozatunes@gmail.com

@@ -1,4 +1,4 @@
-package modelo;
+package modelo;// pacote
 
 public class Aluno/*Classe aluno*/  extends Pessoa { //Herança
 	
@@ -6,13 +6,13 @@ public class Aluno/*Classe aluno*/  extends Pessoa { //Herança
 	int matricula; //variavel
 	
 		// Metodo Construtor
-		public Aluno(String nome, int idade, int matricula) {
+		public Aluno(String nome, int idade, int matricula) {//metodo construtor 
 			super(nome, idade);//atributo
-			this.matricula = matricula;
+			this.matricula = matricula;//variavel mais atributo
 		}
 	// metodo estudar, imprime mensagem na tela pro usuário
 	public void estudar() {
-		System.out.println("Aluno estudar. ");
+		System.out.println("Aluno estudar. ");// aluno estudando
 	}
 	
 }

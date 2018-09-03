@@ -1,14 +1,14 @@
-package modelo;
+package modelo;//pacote
 
-public class Pessoa {
-String nome;
-int idade;
-public Pessoa(String nome, int idade) {
-	this.nome = nome;
-	this.idade = idade;
+public class Pessoa {//classe
+String nome;//variavel
+int idade;//variavel
+public Pessoa(String nome, int idade) {//metodo construtor
+	this.nome = nome;//atributo
+	this.idade = idade;//atributo
 	}
-public void falar() {
-	System.out.print("Pessoa Falando.  ");
+public void falar() {//metoddo falar
+	System.out.print("Pessoa Falando.  ");//print de pessoa falando
 }
 }
 //email: eudisozatunes@gmail.com
