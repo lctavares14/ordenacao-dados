@@ -3,6 +3,7 @@ package trabalhoOrdenacaoDados;
 public class Empresa {
 public static String nome;
 public static String CNPJ;
+
 public static String getNome() {
 	return nome;
 }

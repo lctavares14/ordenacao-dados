@@ -3,6 +3,7 @@ package trabalhoOrdenacaoDados;
 public class Funcionario {
 public static String metas;
 public static Double salario;
+
 public String getMetas() {
 	return metas;
 }
